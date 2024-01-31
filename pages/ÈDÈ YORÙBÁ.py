@@ -66,7 +66,7 @@ def main():
     else:
       phd='N' 
     makeprediction=[]
-    if st.button("Predict"): 
+    if st.button("Ṣayẹwo".upper()): 
         makeprediction=model.predict(
           [[fbs,bmi,waist,age,gender,fhd,fhh,heu,hew,rex,hef,phd]]
           )
